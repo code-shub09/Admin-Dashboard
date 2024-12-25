@@ -12,7 +12,7 @@ const AppWrapper = () => {
 
   return (
     <Context.Provider
-      value={{ isAuthenticated, setIsAuthenticated, admin, setAdmin,baseUrl}}
+      value={{ isAuthenticated, setIsAuthenticated, admin, setAdmin}}
     >
       <App />
     </Context.Provider>
