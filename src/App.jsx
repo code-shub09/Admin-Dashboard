@@ -13,7 +13,7 @@ import { Context } from "./main";
 import axios from "axios";
 // import { ToastContainer } from "react-toastify";
 // import "react-toastify/dist/ReactToastify.css";
-import Sidebar from "./components/Sidebar";
+import Sidebar from "./components/sidebar";
 import AddNewAdmin from "./components/AddNewAdmin";
 import "./App.css";
 import { contextX } from "./store/Xcontext";
