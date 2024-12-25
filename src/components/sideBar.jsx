@@ -11,9 +11,8 @@ import { Context } from "../main";
 import { useNavigate } from "react-router-dom";
 import { contextX } from "../store/Xcontext";
 
-const Sidebar = () => {
+function SideBar() {
   const [show, setShow] = useState(false);
-
 
   const { isAuthenticated, setIsAuthenticated } = useContext(Context);
 
@@ -77,6 +76,6 @@ const Sidebar = () => {
       </div>
     </>
   );
-};
+}
 
-export default Sidebar;
+export default SideBar;

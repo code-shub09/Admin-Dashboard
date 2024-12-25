@@ -11,9 +11,7 @@ import Messages from "./components/Messages";
 import Doctors from "./components/Doctors";
 import { Context } from "./main";
 import axios from "axios";
-// import { ToastContainer } from "react-toastify";
-// import "react-toastify/dist/ReactToastify.css";
-import Sidebar from "./components/sidebar";
+import SideBar from "./components/sideBar"
 import AddNewAdmin from "./components/AddNewAdmin";
 import "./App.css";
 import { contextX } from "./store/Xcontext";
@@ -44,10 +42,10 @@ const App = () => {
   
   return (
     <Router>
-      <Sidebar />
+       <SideBar></SideBar>
       <Routes>
         <Route path="/" element={<Dashboard />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/login" element={<Login></Login>} />
         <Route path="/doctor/addnew" element={<AddNewDoctor />} />
         <Route path="/admin/addnew" element={<AddNewAdmin />} />
         <Route path="/messages" element={<Messages />} />
