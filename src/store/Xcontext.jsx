@@ -9,7 +9,7 @@ function AppProvider({children}){
     return (
         <>
 
-        <contextX.Provider value={{IsAuthenticated,SetIsAuthenticated,baseUrl}}>
+        <contextX.Provider value={{IsAuthenticated,SetIsAuthenticated}}>
 
             {children};
         </contextX.Provider>

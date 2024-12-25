@@ -17,7 +17,7 @@ import "./App.css";
 import { contextX } from "./store/Xcontext";
 
 const App = () => {
-  const { isAuthenticated, setIsAuthenticated, admin, setAdmin ,baseUrl} =
+  const { isAuthenticated, setIsAuthenticated, admin, setAdmin } =
     useContext(Context);
 
     // const {baseUrl}=useContext(contextX);

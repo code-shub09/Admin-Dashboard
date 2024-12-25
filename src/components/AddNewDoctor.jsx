@@ -35,15 +35,7 @@ const AddNewDoctor = () => {
     "ENT",
   ];
 
-  //   const handleAvatar = (e) => {
-  //     const file = e.target.files[0];
-  //     const reader = new FileReader();
-  //     reader.readAsDataURL(file);
-  //     reader.onload = () => {
-  //       setDocAvatarPreview(reader.result);
-  //       setDocAvatar(file);
-  //     };
-  //   };
+
 
   const handleAddNewDoctor = async (e) => {
     e.preventDefault();

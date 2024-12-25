@@ -12,7 +12,7 @@ const Login = () => {
   const [password, setPassword] = useState("");
  
 
-  const { isAuthenticated, setIsAuthenticated,baseUrl } = useContext(Context);
+  const { isAuthenticated, setIsAuthenticated} = useContext(Context);
 
   const navigateTo = useNavigate();
 
